@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	back-ground:#FFFFFF;
+	color:#00099;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+nav a {
+	background-color:#CCCCCC;
+}
+
+h1{
+	font-family:"Times New Roman";
+	color:red;
+}

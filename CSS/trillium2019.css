@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+		background-color:#E6E6FA;
+		color:#191970;
+		font-family:'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+		width:80%;
+		margin:0 auto;
+	}
+	
+	h1{
+		background-color:#191970;
+		color:#E6E6FA;
+		line-height:200%;
+		font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"
+	}
+
+	h2{
+		background-color:#AEAED4;
+		color:#191970;
+		font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"
+	}
+	
+	p {
+		font-size:.90em;
+	}
+	
+	ul {
+		font-weight:bold;	
+	}
+	
+	nav {	
+		font-weight:bold;
+		font-size:1.25em;
+	}
+	nav a{
+		text-decoration:none;
+	}
+	/* This is for hovering over an anchor tag within the nav*/
+	nav a:hover{
+		color:#DDB4E8;
+		background-color:aliceblue;
+	}
+	
+	footer {
+		font-size:.75em;
+		font-style:italic;
+		text-align:center;
+	}
+	
+	.companyname {
+		font-weight:bold;
+		font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+		font-size:1.25em;
+	}
+	

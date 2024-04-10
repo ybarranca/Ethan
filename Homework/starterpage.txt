@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html> 
+
+<html>
+
+<head></head>
+
+<body>
+
+
+      <img src="../images/circlesoftlogo.gif" alt="Circlesoft Design" width="700" height="100"/>
+      
+	
+      <p><a rel="noopener" href="#">HOME</a></p>
+      <p><a rel="noopener" href="#">ABOUT</a></p>
+      <p><a rel="noopener" href="#">CLIENTS</a></p>
+      <p><a rel="noopener" href="#">CONTACT</a></p>
+           
+		<h2>Circlesoft will....</h2>
+        <ul>
+          <li>work with you to create a web presence </li>
+          <li>match your company&#39;s style </li>
+          <li>highlight your products or services</li>
+          <li>listen to you and answer your questions</li>
+          <li>utilize the most appropriate technology for your sites</li>
+        </ul>
+	
+      <p><a rel="noopener" href="#">Home</a> | <a rel="noopener" href="#">About</a> | <a rel="noopener" href="#">Clients</a> | <a rel="noopener" href="#">Contact </a> <br/>
+        <br/>
+       Copyright &#169; put current date here IS 3260 Starter Page Circle Soft Design<br/>
+       Last updated 2022<br/><br/></p>
+     
+    
+
+
+</body>
+
+</html>

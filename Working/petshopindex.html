@@ -1,0 +1,103 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/petshopmain.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+<!-- InstanceBeginEditable name="PetShopTemplate" -->
+<title>Paws4U - Index</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+<link href="http://studentweb.kennesaw.edu/~ybarranc/3260/CSS/petshop.css" rel="stylesheet" type="text/css">
+<!-- InstanceParam name="rightpanel" type="boolean" value="true" -->
+<script type="text/JavaScript"> 
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+ 
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+ 
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+ 
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+// Comma separated list of images to rotate
+var imgs = new Array('http://studentweb.kennesaw.edu/~ybarranc/3260/Images/Pet Image 1.jpeg','http://studentweb.kennesaw.edu/~ybarranc/3260/Images/Pet Image 2.jpeg','http://studentweb.kennesaw.edu/~ybarranc/3260/Images/Pet image 3.jpeg','http://studentweb.kennesaw.edu/~ybarranc/3260/Images/Pet Image 4.jpeg','http://studentweb.kennesaw.edu/~ybarranc/3260/Images/Pet Image 5.jpeg','http://studentweb.kennesaw.edu/~ybarranc/3260/Images/Pet Image 6.jpeg');
+// delay in milliseconds between image swaps 1000 = 1 second
+var delay = 5000;
+var counter = 0;
+ 
+function preloadImgs(){
+  for(var i=0;i<imgs.length;i++){
+    MM_preloadImages(imgs[i]);
+  }
+}
+ 
+function randomImages(){
+  if(counter == (imgs.length)){
+    counter = 0;
+  }
+  MM_swapImage('rotator', '', imgs[counter++]);
+  setTimeout('randomImages()', delay);
+}
+//-->
+</script> 
+</head>
+
+<body onload="preloadImgs();randomImages();">
+<div id="container">
+	
+	<header><img src="http://studentweb.kennesaw.edu/~ybarranc/3260/Images/paws4ulogo" width="100%" height="150" alt="Paws4ULogo" />
+  
+<div class="bevel">
+
+	<nav>
+
+<ul>
+
+ <li><a rel="noopener" href="http://studentweb.kennesaw.edu/~ybarranc/3260/Working/petshopindex">HOME</a></li>
+
+  <li><a rel="noopener" href="http://studentweb.kennesaw.edu/~ybarranc/3260/Working/petshopservices">SERVICES</a></li>
+
+  <li><a rel="noopener" href="http://studentweb.kennesaw.edu/~ybarranc/3260/Working/petshopadoptions">ADOPTIONS</a></li>
+
+  <li><a rel="noopener" href="http://studentweb.kennesaw.edu/~ybarranc/3260/Working/petshopabout">ABOUT US</a></li>
+
+  <li><a rel="noopener" href="http://studentweb.kennesaw.edu/~ybarranc/3260/Working/petphotos">PHOTOS</a></li>
+
+  <li><a rel="noopener" href="http://studentweb.kennesaw.edu/~ybarranc/3260/Working/petlocations">LOCATIONS</a></li>
+</ul>
+<td>
+<iframe src="https://calendar.google.com/calendar/embed?height=200&wkst=1&bgcolor=%23ffffff&ctz=America%2FCancun&title=Important%20Dates&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%234285F4" style="border:solid 1px #777" width="200" height="200" frameborder="0" scrolling="no"></iframe>
+</td>
+	</nav>
+</div>
+	</header>
+	<aside><!-- InstanceBeginEditable name="right panel" -->
+		<h1>EVENTS</h1>
+	<p>Come out and Meet our Rescues! March 23rd 1-5 pm.</p>
+
+		<p>Save the Date! March 30th Pet Palooza 11am - 6pm</p>
+	<!-- InstanceEndEditable --></aside>
+	<main><!-- InstanceBeginEditable name="maincontent" -->
+<h1>WELCOME TO PAWS4U</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <img src="http://studentweb.kennesaw.edu/~ybarranc/3260/Images/Pet Image 1.jpeg" width="125" height="125" alt="Puppy1" align="right"/> Fusce aliquam venenatis dapibus. Curabitur eu ex nulla.  Donec dignissim purus et ipsum tincidunt, id euismod nisl malesuada. Nulla et sodales urna. Vivamus vitae nisl nec libero pretium elementum in eget quam. Integer ipsum risus, interdum vitae volutpat quis, fringilla at lorem.Quisque ac elit pulvinar, consequat magna ullamcorper, tempor dolor. Sed tincidunt scelerisque auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi viverra non enim sit amet pharetra.
+		Proin diam lorem, rutrum eu enim at, sodales sagittis tortor. Nulla gravida nunc nibh, ut tempus est mollis ut. Nam vulputate elementum lectus eu ultrices. Ut dictum eros enim, sed porttitor elit faucibus vel. <img src="http://studentweb.kennesaw.edu/~ybarranc/3260/Images/Pet Image 4.jpeg" width="125" height="125" alt="Cat" align="left"/> Nam quis nunc at sapien scelerisque aliquet sit amet ac mi. Morbi ut ornare orci. Curabitur malesuada nulla a dui congue, at tristique leo posuere. Morbi sapien est, mollis mattis urna non, varius ornare turpis.Ut tincidunt felis nunc. Mauris non eleifend dolor. Phasellus viverra lorem ut finibus pellentesque. 
+		Curabitur tristique turpis in nibh aliquam hendrerit. Duis efficitur ornare orci, sit amet sodales odio interdum non. Fusce tortor nunc, elementum eget ullamcorper nec, ultricies at erat. Donec vehicula mi mattis luctus mattis. Quisque tristique risus ac ex facilisis, ut lacinia purus pretium. Praesent dui metus, fermentum gravida quam at, sagittis tristique eros. Nam eget ante metus. Sed maximus, eros a rhoncus hendrerit, nibh nibh vestibulum mi, et facilisis sem arcu egestas felis. Cras finibus diam quis nisl dapibus vulputate a ultricies nisl.</p>
+	<!-- InstanceEndEditable --></main>
+  <footer> <a rel="noopener" href="http://studentweb.kennesaw.edu/~ybarranc/3260/Working/petshopindex">Home</a> | <a href="emailto: paws4u@NotRealEmail.com">Contact Us</a> | <a rel="noopener" href="http://studentweb.kennesaw.edu/~ybarranc/3260/Working/petshopfeedback">Feedback</a> <br/>Paws4U Copyright &copy; 2023</footer>
+</div>
+</body>
+<!-- InstanceEnd --></html>

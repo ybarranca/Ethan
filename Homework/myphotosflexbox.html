@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>My Eight Favorite Photos</title>
+<style>
+	nav {
+  display: flex;
+  flex-wrap: wrap;
+	}
+	@supports (display: grid) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+}
+  @media only screen and (max-device-width: 480px) {
+         div #wrapper {
+                  width: 400px;
+          }
+
+          #navigation {
+                  width: auto;
+                }
+        }
+			body {
+			margin: 0;
+			padding: 0;
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			background-color:darkgray;
+		}
+		
+		header, footer {
+			background-color: #333;
+			color: white;
+			padding: 10px;
+			text-align: center;
+		}
+		
+		main {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-evenly;
+			align-items: center;
+			padding: 20px;
+		}
+		
+		img {
+			width: 250px;
+			height: 250px;
+			object-fit: cover;
+			margin: 10px;
+			border: 5px solid #333;
+			border-radius: 10px;
+		}
+#container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100px auto;
+  grid-gap: 10px;
+}
+
+#container > :nth-child(3) {
+  grid-column: 1 / span 2;
+  width: 75%;
+}
+</style>	
+</head>
+<body>
+	<header>
+		<h1>My Favorite Photos</h1>
+	</header>
+	
+	<main>
+		<img src="http://studentweb.kennesaw.edu/~ybarranc/3260/Images/IMG1" alt="Photo 1">
+		<img src="http://studentweb.kennesaw.edu/~ybarranc/3260/Images/IMG2" alt="Photo 2">
+		<img src="http://studentweb.kennesaw.edu/~ybarranc/3260/Images/IMG3" alt="Photo 3">
+		<img src="http://studentweb.kennesaw.edu/~ybarranc/3260/Images/IMG4" alt="Photo 4">
+		<img src="http://studentweb.kennesaw.edu/~ybarranc/3260/Images/IMG5" alt="Photo 5">
+		<img src="http://studentweb.kennesaw.edu/~ybarranc/3260/Images/IMG6" alt="Photo 6">
+		<img src="http://studentweb.kennesaw.edu/~ybarranc/3260/Images/IMG7" alt="Photo 7">
+		<img src="http://studentweb.kennesaw.edu/~ybarranc/3260/Images/IMG8" alt="Photo 8">
+	</main>
+	
+	<footer>
+		<p>Created by Yair Barranca - CONTACT ME: <a href="mailto:YairB243@gmail.com">EMAIL</a></p>
+	</footer>
+	</body>
+</html>

@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color:yellow;
+	color:green;
+}
+
+nav a {
+	background-color:white;
+}
+
+h1 {
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	background-color:white;
+	color:green;
+}
+
+
+ 

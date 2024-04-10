@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>My favorite location</title>
+</head>
+<style>
+	nav {
+  display: flex;
+  flex-wrap: wrap;
+	}
+	@supports (display: grid) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+}
+  @media only screen and (max-device-width: 480px) {
+         div #wrapper {
+                  width: 400px;
+          }
+
+          #navigation {
+                  width: auto;
+                }
+        }
+	
+#container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100px auto;
+  grid-gap: 10px;
+}
+
+#container > :nth-child(3) {
+  grid-column: 1 / span 2;
+  width: 75%;
+}
+</style>
+<body>
+	<section id="home">
+		<header>
+		<h1>My Favorite Location</h1>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#activities">Activities</a></li>
+				<li><a href="#sights">Sights</a></li>
+			</ul>
+		</nav>
+		<p>Playa Del Carmen, Mexico</p>
+	</section>
+<section id="activities">
+	<h2>Things to do</h2>
+	<ul>
+		<li></li>
+	</ul>
+</section>
+<section id="sights">
+	<h2>Things to see</h2>
+	<ul>
+		<li></li>
+	</ul>
+</section>
+	<footer>
+		<p>CONTACT ME: Yair Barranca - <a href="mailto:YairB243@gmail.com">EMAIL</a></p>
+	</footer>
+</body>
+</html>
